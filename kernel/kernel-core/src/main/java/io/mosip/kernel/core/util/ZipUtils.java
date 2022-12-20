@@ -387,7 +387,7 @@ public class ZipUtils {
 					}
 				}
 				zipIn.closeEntry();
-				entry = zipIn.getNextEntry();   //NOSONAR Setting the Next Entry here.
+				entry = zipIn.getNextEntry();    //NOSONAR Setting the Next Entry here.
 			}
 		} catch (java.io.FileNotFoundException e) {
 			throw new FileNotFoundException(ZipUtilConstants.FILE_NOT_FOUND_ERROR_CODE.getErrorCode(),

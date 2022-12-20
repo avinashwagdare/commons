@@ -152,7 +152,7 @@ public class LoggerImpl implements Logger {
 		} else {
 			this.logger.setLevel(Level.valueOf(LogLevel.DEBUG.getLevel()));    //NOSONAR Setting the loglevel to DEBUG here.
 		}
-		this.logger.addAppender(rollingFileAppender);   //NOSONAR Adding the rolling file appender here.
+		this.logger.addAppender(rollingFileAppender);    //NOSONAR Adding the rolling file appender here.
 
 	}
 
